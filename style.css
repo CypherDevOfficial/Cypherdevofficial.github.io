@@ -1,0 +1,154 @@
+body {
+background-color: black;
+color: darkgreen;
+font-family: Arial, sans-serif;
+padding: 20px;
+}
+
+
+h1 {
+color: green;
+text-align: center;
+font-size: 48px;
+margin-bottom: 10px;
+}
+
+
+h2 {
+color: green;
+}
+
+
+nav {
+text-align: center;
+margin: 10px 0 30px 0;
+}
+
+
+nav a {
+color: green;
+text-decoration: none;
+margin: 0 20px;
+font-size: 18px;
+}
+
+
+nav a:hover {
+color: green;
+}
+
+
+.content {
+display: flex;
+gap: 30px;
+margin-top: 30px;
+align-items: center;
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.image {
+margin-left: 50px;
+}
+
+
+.image img {
+width: 400px;
+height: 450px;
+border-radius: 50%;
+border: 2px solid darkgreen;
+}
+
+
+.basic-intro {
+flex: 1;
+}
+
+
+p {
+color: green;
+line-height: 1.6;
+}
+
+
+.about-me {
+display: flex;
+gap: 30px;
+margin-top: 30px;
+align-items: center;
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.roadmap-image img {
+width: 450px;;
+height: 300px;
+}
+
+
+.writing-part {
+ border-width: 3px;
+ border-style: solid;
+ border-color: green;
+ padding: 10px;
+ border-radius: 25px;
+ text-align: center;
+}
+
+
+.about-pharagraph {
+ color: lightgreen
+}
+
+
+.about-link {
+  color: lightgreen; 
+  text-decoration: none;
+  font-size: 16px; 
+  font-family: Arial, sans-serif; 
+  border: 1px solid darkgreen; 
+  border-radius: 5px; 
+  text-align: center;
+  padding: 5px 10px;
+}
+
+button {
+            background-color: darkgreen; 
+            color: lightgreen; 
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 16px; 
+            border-width: 2px;
+        }
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* I kinda used AI for this code becuase I didn't know how to do it. */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project {
+    border: 3px solid darkgreen;
+    padding: 20px;
+    border-radius: 15px;
+    background-color : black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.project h2 {
+    margin: 0;
+    text-align: center;
+    color: green;
+}
